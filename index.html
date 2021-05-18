@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Api github</title>
+</head>
+<body>
+    <header>
+        <h1>PEGANDO DADOS GIThub </h1>
+    </header>
+    <main>
+        <article>
+            <section id="input">
+                <h3>
+                    Insira o usuario que deseja pegar os dados
+                </h3>
+               <input placeholder="usuario" type="text" id="usuario" name="usuario" >
+               <button onclick ="pegardados()" id="button"> pegar dados </button>
+            </section>
+            <section >
+                <strong><p>Login :</p></strong><p id="login"></p>
+                <strong><p>Following :</p></strong> <p id="following"></p>
+                <strong><p>Followers :</p></strong> <p id="followers"></p>
+                <strong><p>Foto :</p> </strong><p id="imagem" ></p>
+            </section>
+        </article>
+    </main>
+    <footer><strong>
+        All rigths protected by copyright
+    </strong> 
+       <script src="js.js"></script>
+    </footer>
+</body>
+</html>
